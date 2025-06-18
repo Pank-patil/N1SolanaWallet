@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35919.96
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Solana Exchange", "LM Exchange\Solana Exchange.csproj", "{FB3FA443-18D8-43EE-9B32-B1A92B7C3960}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FB3FA443-18D8-43EE-9B32-B1A92B7C3960}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB3FA443-18D8-43EE-9B32-B1A92B7C3960}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB3FA443-18D8-43EE-9B32-B1A92B7C3960}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB3FA443-18D8-43EE-9B32-B1A92B7C3960}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C0DBB42A-6152-4A50-987E-F431B874FB64}
+	EndGlobalSection
+EndGlobal

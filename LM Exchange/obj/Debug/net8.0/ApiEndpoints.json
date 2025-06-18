@@ -1,0 +1,192 @@
+[
+  {
+    "ContainingType": "LM_Exchange.Controllers.ClientController",
+    "Method": "CreateClient",
+    "RelativePath": "AddClient",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "LM_Exchange.Dtos.ClientCreateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LM_Exchange.Controllers.ClientController",
+    "Method": "AddMoney",
+    "RelativePath": "AddMoney",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "LM_Exchange.Dtos.AddMoneyRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LM_Exchange.Controllers.ClientController",
+    "Method": "DeleteClient",
+    "RelativePath": "DeleteClient",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "clientByIdDto",
+        "Type": "LM_Exchange.Dtos.ClientByIdDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LM_Exchange.Controllers.Logincontroller",
+    "Method": "Refresh",
+    "RelativePath": "GenerateAcessTokenFromRefreshToken",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tokenModel",
+        "Type": "LM_Exchange.Dtos.LoginResponseDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LM_Exchange.Controllers.ClientController",
+    "Method": "GetClientById",
+    "RelativePath": "GetClientById",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ClientByIdDto",
+        "Type": "LM_Exchange.Dtos.ClientByIdDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "LM_Exchange.Model.Client",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "LM_Exchange.Controllers.ClientController",
+    "Method": "GetClients",
+    "RelativePath": "GetClients",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[LM_Exchange.Model.Client, Solana Exchange, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "LM_Exchange.Controllers.Logincontroller",
+    "Method": "Login",
+    "RelativePath": "Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "LM_Exchange.Dtos.UserLoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LM_Exchange.Controllers.Logincontroller",
+    "Method": "Register",
+    "RelativePath": "Register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "LM_Exchange.Dtos.AddRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LM_Exchange.Controllers.ClientController",
+    "Method": "TransferByUsername",
+    "RelativePath": "SendToUser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "LM_Exchange.Dtos.TransferByUsernameRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LM_Exchange.Controllers.ClientController",
+    "Method": "UpdateClient",
+    "RelativePath": "UpdateClient",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "clientUpdateDto",
+        "Type": "LM_Exchange.Dtos.ClientUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LM_Exchange.Controllers.ClientController",
+    "Method": "WithdrawMone",
+    "RelativePath": "WithdrawMoney",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "LM_Exchange.Dtos.AddMoneyRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
